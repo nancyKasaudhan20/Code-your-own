@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#logo{
+     padding-left: 10px;
+}
+
+
+b{font-family: 'Love Ya Like A Sister', cursive;
+    font-size: 1.8rem;
+    position: absolute;
+    left: 59px;
+}
+
+
+
+.login{
+    position: absolute;
+    right: 20px;
+    top: 0px;
+    padding: 6px 34px;
+    margin: 4px;
+    margin-right: 2px;
+    border-radius: 10px;
+    border: 0px solid;
+    background-color: rgb(8, 115, 148);
+    font-size: 0.8rem;
+    color: white;
+    cursor: pointer;
+    font-family: 'Hepta Slab', serif;
+}
+.login:hover{
+        background-color: rgb(49, 84, 222);
+        
+    }
+
+#navbar{
+    background-color: rgb(191, 205, 205);
+    display: flex;
+    position: relative;
+    top: 0px;
+    height: 41px;
+
+}
+.first{
+    
+    /* background-color: aquamarine; */
+    font-family: 'Hepta Slab', serif;
+   font-size: 3rem;
+   font-weight: bold;
+   text-align: center;
+   position: absolute;
+   left: 650px;
+   top: 100px;
+   right: 100px;
+
+}
+.second{
+    
+    /* background-color: antiquewhite; */
+    font-family: 'Hepta Slab', serif;
+    text-align: center;
+    position: absolute;
+    left: 650px;
+    top: 330px;
+    right: 100px;
+}
+.get{
+
+    padding: 8px 34px;
+    margin: 4px;
+    margin-right: 2px;
+    border-radius: 10px;
+    border: 0px solid;
+    background-color: rgb(8, 115, 148);
+    font-size: 0.8rem;
+    color: white;
+    cursor: pointer;
+    font-family: 'Hepta Slab', serif;
+    position: absolute;
+    left: 840px;
+    top: 540px;
+}
+.big{
+    display: flex;
+    
+}
+.iimg{
+    display: flex;
+     height: 60vh;
+     width: 60vh;
+    
+    
+
+}
+
+.heading{
+    font-family: 'Hepta Slab', serif;
+   font-size: 3rem;
+   font-weight: bold;
+   text-align: center;
+   position: absolute;
+   left: 60px;
+   top: 700px;
+   
+}
+#box{
+    display: flex;
+    margin: 50px;
+
+}
+#box .box1 .box2{
+    background-color: bisque;
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    top: 800px;
+    border-radius: 20px;
+
+
+}
