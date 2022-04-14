@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Try document</h1>
+
+</body>
+</html>
+
+<script src="https://cdn.jsdelivr.net/npm/appwrite@7.0.0"></script>
+<script>
+
+    // Init your Web SDK
+const appwrite = new Appwrite();
+
+appwrite
+    .setEndpoint('http://147.182.237.140/v1') // Your Appwrite Endpoint
+    .setProject('qrcode') // Your Appwrite Project ID
+;
+// Initiate the Magic URL login
+appwrite.account.createMagicURLSession("unique()",'isharjain19@gmail.com')
+    .then(response => {
+        console.log(response); // Success
+    }, error => {
+        console.log(error); // Failure
+    });
+
+</script>
