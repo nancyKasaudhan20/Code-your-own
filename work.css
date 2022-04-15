@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#logo{
+     padding-left: 10px;
+}
+b{font-family: 'Love Ya Like A Sister', cursive;
+    font-size: 1.8rem;
+    position: absolute;
+    left: 59px;
+}
+
+
+#navbar{
+    /* background-color: rgb(191, 205, 205); */
+    display: flex;
+    position: relative;
+    top: 0px;
+    height: 41px;
+
+}
+h1{
+font-family: Hepta Slab;
+font-size: 80px;
+font-weight: 800;
+line-height: 100px;
+letter-spacing: 0em;
+text-align: center;
+margin-left: auto;
+margin-right:auto;
+}
+form{
+    width: 70vw;
+    height: 60vh;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    margin-left: auto;
+    margin-right: auto;
+}
+input{
+    height:50px;
+    width:65vw;
+    margin: 10px 0px;
+    outline: none;
+    
+}
+input:focus{
+    background-color:#7CB7EE;
+}
+#try {
+  background-image: url('./Logo.png');
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  background-size: 30px;
+  text-indent: 45px;
+}
+#btn{
+width: 100px;
+height:40px;
+border-radius: 5px;
+background-color:#2967A0;
+border:none;
+color: white;
+margin-left: 50vw;
+margin-right: 50vw;
+transform: translateX(-50%);
+cursor: pointer;
+}
+#btn:hover{
+    opacity:0.7;
+}
+#btn:focus{
+    opacity:0.7;
+}
+#btn:unfocus{
+    opacity: 1;
+}
+@media(max-width:800px){
+    input{
+        height:45px;
+        width:65vw;
+        margin: 10px 0px;
+        outline: none;
+        
+    }
+    h1{
+        font-family: Hepta Slab;
+        font-size: 40px;
+        font-weight: 800;
+        line-height: 100px;
+        letter-spacing: 0em;
+        text-align: center;
+        margin-left: auto;
+        margin-right:auto;
+    }
+    form{
+        width: 70vw;
+        height: 55vh;
+        overflow-y: scroll;
+        scroll-behavior: smooth;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+}
