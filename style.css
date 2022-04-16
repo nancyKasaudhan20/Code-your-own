@@ -6,11 +6,13 @@
 
 #logo{
      padding-left: 10px;
+     margin-top: 4px;
 }
 
 
 .brand-name {font-family: 'Love Ya Like A Sister', cursive;
-    font-size: 1.8rem;
+
+    font-size: 2rem;
     position: absolute;
     left: 59px;
     top: 0px;
@@ -21,6 +23,7 @@
    
 body{
     overflow-x: hidden;
+    background-color: azure;
 }
 html{
     overflow-x: hidden;
@@ -30,10 +33,10 @@ html{
 
 
 nav {
-    background-color: rgb(191, 205, 205);
+    background-color: rgb(162 204 204);
     display: flex;
     width: 100%;
-    height: 41px;
+    height: 50px;
     position: fixed;
     top: 0;
 
@@ -45,8 +48,10 @@ nav {
     font-weight: bold;
     text-align: center;
     display: inline-block;
-    margin-top: 8%;
+    margin-top: 17%;
     margin-bottom: 4%;
+    margin-left: 16%;
+    margin-right: 17%;
     
 }
 .second{
@@ -54,17 +59,19 @@ nav {
     font-family: 'Hepta Slab', serif;
     text-align: center;
     display: inline-block;
-    color: rgb(35, 158, 245);
+    color: #0A3E6D;
+    margin-right: 14%;
+    margin-left: 13%;
     font-size: 1.4vw;
 }
  .btn{
          /* text-align: center; */
-     padding: 8px 34px;
+     padding: 12px 21px;
     margin: 4px; 
     
     border-radius: 10px;
     border: 0px solid;
-    background-color: rgb(8, 115, 148);
+    background-color: #2967a0 ;
     font-size: 0.8rem;
     color: white;
     cursor: pointer;
@@ -72,7 +79,7 @@ nav {
     display: inline-block; 
 }
  .btn:hover{
-     background-color: blue;
+     background-color:#0A3E6D;
  }
 #get{
     text-align: center;
@@ -82,7 +89,10 @@ nav {
 display: flex; 
 }
 .main-img{
-width: 50vw;   
+
+width: 43vw;
+    padding-top: 93px;
+    padding-left: 40px; 
 }
 
 @media (max-width:768px){
@@ -134,7 +144,9 @@ margin-top: 15%;
 
 
 
-
+.brand-name{
+    color: #00182f;
+}
 
 
 
@@ -174,40 +186,44 @@ margin-top: 15%;
      
  }
  .sec-img{
-     margin: 2px 24px;
+     margin: 40px 24px;
  }
 
  .sub-text{
     font-family: 'Hepta Slab', serif;
-    color: rgb(0, 166, 255);
+    color:#0a3e68;
     text-align: center;
-    margin: 20px 31px;
+    margin: 20px 51px;
+    font-weight: 500;
  }
 
 .sec-sub-text{
     font-family: 'Hepta Slab', serif;
-    color: rgb(0, 166, 255);
     text-align: center;
     margin:25px 50px ;
+    color:#0a3e68;
+    font-weight: 500;
 }
   
 .step{
-    color: rgb(44, 171, 221);
-    font-size: 3vw;
+    color: #2967a0;
+    font-size: 2.5vw;
     margin: 2px 30px;
+    font-family: 'Hepta Slab', serif;
+    font-weight: bold;
 }
 
 
 footer{
-    background-color: rgb(5, 19, 97);
+    background-color: #0a3e68 ;
     display: flex;
     line-height: 75px;
 }
 .name{
     font-family: 'Love Ya Like A Sister', cursive;
-    font-size: 6vh;
+    /* font-size: 6vh; */
     color: white;
-    margin-top: 85px;
+    margin-top: 48px;
     margin-left: 12px;
 
 }
@@ -215,16 +231,20 @@ footer{
 .first-line  {
     font-family: 'Hepta Slab', serif;
     color: white;
-    font-size: 3vh;
+    font-size: 1rem;
+    line-height: 45px;
     /* margin-left: 25%; */
 }
 
 .foot-img{
    
-    margin-top: 87px;
+    margin-top: 49px;
     margin-left: 40px;
 }
 .end{
     width: 50vw;
     display: flex;
+}
+#privacy{
+    margin-top: 7%;
 }
