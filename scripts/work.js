@@ -29,7 +29,7 @@ console.log(identifier)
     localStorage.setItem('url', data)
     console.log(data)
   }).then(function (response) {
-        window.location.replace("../show.html")
+        window.location.replace("./show.html")
 
   })
 }
