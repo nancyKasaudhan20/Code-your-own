@@ -1,3 +1,7 @@
+
+
+
+
 *{
     margin: 0;
     padding: 0;
@@ -11,12 +15,10 @@
 
 
 .brand-name {font-family: 'Love Ya Like A Sister', cursive;
-
     font-size: 2rem;
     position: absolute;
     left: 59px;
     top: 0px;
-    margin-left:30px;
 }
 
 
@@ -65,7 +67,7 @@ nav {
     font-size: 1.4vw;
 }
  .btn{
-         /* text-align: center; */
+         
      padding: 12px 21px;
     margin: 4px; 
     
@@ -233,7 +235,7 @@ footer{
     color: white;
     font-size: 1rem;
     line-height: 45px;
-    /* margin-left: 25%; */
+    
 }
 
 .foot-img{
