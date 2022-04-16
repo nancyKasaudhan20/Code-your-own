@@ -5,7 +5,7 @@ console.log(id);
 
 const sdk = new Appwrite();
 sdk
-    .setEndpoint('http://143.244.183.200/v1') // Your Appwrite Endpoint
+    .setEndpoint('https://backend.codeyourown.tech/v1') // Your Appwrite Endpoint
     .setProject('codeyourown') // Your project ID
 ;
 let readData = sdk.database.getDocument('all-data', id );
