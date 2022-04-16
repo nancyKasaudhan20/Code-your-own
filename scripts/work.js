@@ -23,7 +23,7 @@ console.log(identifier)
   localStorage.setItem('uniqueID', identifier)
   // const qridentifier = identifier
   fetch(
-    `https://api.qrserver.com/v1/create-qr-code/?data=http://localhost:5500/fetch.html?id=${identifier}`,
+    `https://api.qrserver.com/v1/create-qr-code/?data=https://ishar19.github.io/Code-your-own/fetch.html?id=${identifier}`,
   ).then(function (response) {
     const data = response.url
     localStorage.setItem('url', data)
