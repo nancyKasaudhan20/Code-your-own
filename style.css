@@ -10,10 +10,11 @@
 
 
 .brand-name {font-family: 'Love Ya Like A Sister', cursive;
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     position: absolute;
     left: 59px;
     top: 0px;
+    margin-left:30px;
 }
 
 

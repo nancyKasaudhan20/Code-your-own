@@ -4,39 +4,97 @@
     box-sizing: border-box;
 }
 
+
+   
+body{
+    overflow-x: hidden;
+}
 #logo{
      padding-left: 10px;
+     margin-right: 20px;
 }
 .brand-name {font-family: 'Love Ya Like A Sister', cursive;
+    position: relative;
     font-size: 1.8rem;
-    position: absolute;
-    left: 59px;
-    top: 0px;
+    bottom: 5px;
 }
-
-
-
-#navbar{
+nav {
     background-color: rgb(191, 205, 205);
     display: flex;
-    position: relative;
-    top: 0px;
+    width: 100%;
     height: 41px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.main{
+    display: flex;
+    justify-content:space-evenly;
 
 }
-h1{
-font-family: Hepta Slab;
-font-size: 80px;
-font-weight: 800;
-line-height: 100px;
-letter-spacing: 0em;
-text-align: center;
-margin-left: auto;
-margin-right:auto;
+.url{
+    font-size: 1rem;
+    width: 300px;
+    background-color: #7CB7EE;
+    text-align: center;
+    margin: 40px auto 10px auto;
+    overflow-x: scroll;
+    padding:1rem;
+    height:5rem;
+    border-radius:12px;
+}
+.copy{
+    width:fit-content;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: auto;
+    margin-right: auto; 
+}
+.copy .btn{
+    background-color:#2967A0;
+    height:3rem;
+    border-radius:12px;
+    color: white;
+    width:150%;
+    cursor:pointer;
+}
+.download{
+    width:fit-content;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: auto;
+    margin-right: auto; 
+}
+.download .btn{
+    background-color:#2967A0;
+    height:3rem;
+    border-radius:12px;
+    color: white;
+    width:150%;
+}
+.btn{
+    background-color:#2967A0;
+    height:3rem;
+    border-radius:12px;
+    color: white;
+}
+#image-container{
+    width: 300px;
+    background-color:white;
+    height:300px;
+    padding:40px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid black;
+}
+#qr{
+    width:220px;
+    height:220px;
 }
 form{
-    width: 70vw;
-    height: 60vh;
+    width: 50vw;
+    height: 90vh;
     overflow-y: scroll;
     scroll-behavior: smooth;
     margin-left: auto;
@@ -44,7 +102,7 @@ form{
 }
 input{
     height:50px;
-    width:65vw;
+    width:45vw;
     margin: 10px 0px;
     outline: none;
     background-position: 10px 10px;
@@ -53,62 +111,25 @@ input{
   text-indent: 45px;
     
 }
-input:focus{
-    background-color:#7CB7EE;
-}
-#btn{
-width: 100px;
-height:40px;
-border-radius: 5px;
-background-color:#2967A0;
-border:none;
-color: white;
-margin-left: 50vw;
-margin-right: 50vw;
-transform: translateX(-50%);
-cursor: pointer;
-}
-#btn:hover{
-    opacity:0.7;
-}
-#btn:focus{
-    opacity:0.7;
-}
-#btn:unfocus{
-    opacity: 1;
-}
-@media(max-width:800px){
-    input{
-        height:45px;
-        width:65vw;
-        margin: 10px 0px;
-        outline: none;
-        
-    }
-    h1{
-        font-family: Hepta Slab;
-        font-size: 40px;
-        font-weight: 800;
-        line-height: 100px;
-        letter-spacing: 0em;
-        text-align: center;
-        margin-left: auto;
-        margin-right:auto;
-    }
-    form{
-        width: 70vw;
-        height: 55vh;
-        overflow-y: scroll;
-        scroll-behavior: smooth;
-        margin-left: auto;
-        margin-right: auto;
-    }
 
+@media (max-width:900px) {
+    .main{
+    display: flex;
+    flex-direction: column;
+}
 }
 
-#Name{
-  background-image: url('./socials/Svg\ desktop.png');
+
+.name{
+    font-size:2rem;
+    text-align: center;
+    border:2px solid black;
+    height:3rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
+
+
 
 #Website{
     background-image: url('./socials/world-wide-web.png')

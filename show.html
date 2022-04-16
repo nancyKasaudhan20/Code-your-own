@@ -1,16 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
-    show
-    <img id="qr" src="" alt="">
-
-</body>
+    <link rel="stylesheet" href="show.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Love+Ya+Like+A+Sister&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hepta+Slab&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hepta+Slab:wght@800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav>
+      <div>
+        <span id="logo">
+          <img src="Logo.png" alt="[:;]" height="40px" width="40px" />
+        </span>
+        <span class="brand-name">Code Your Own</span>
+      </div>
+    </nav>
+    <div class="main">
+      <div>
+        <div id="myURL" class="url">
+          <span><a class="linkref" href=""></a></span>
+        </div>
+        <div class="copy">
+          <button onclick="copyText()" class="btn">Copy the URL</button>
+        </div>
+        <div id="image-container">
+          <a class="QRref" href="" >
+            <img id="qr" src="" alt="qrcode" />
+          </a>
+        </div>
+        <p style="text-align: center;">click on the QR code to view it.</p>
+      </div>
+      <div>
+        <div class="name">Name</div>
+        <form action="#" id="form">
+          <input type="text" placeholder="Website" id="Website" />
+          <input type="text" placeholder="Gmail" id="Gmail" />
+          <input type="text" placeholder="Contact" id="Contact" />
+          <input type="text" placeholder="Twitter" id="Twitter" />
+          <input type="text" placeholder="Github" id="Github" />
+          <input type="text" placeholder="Linkedin" id="Linkedin" />
+          <input type="text" placeholder="Instagram" id="Instagram" />
+          <input type="text" placeholder="Discord" id="Discord" />
+          <input type="text" placeholder="Kaggle" id="Kaggle" />
+          <input type="text" placeholder="Spotify" id="Spotify" />
+          <input type="text" placeholder="Pinterest" id="Pinterest" />
+          <input type="text" placeholder="Youtube" id="Youtube" />
+          <input type="text" placeholder="Yahoo" id="Yahoo" />
+          <input type="text" placeholder="Snapchat" id="Snapchat" />
+          <input type="text" placeholder="Dribble" id="Dribble" />
+          <input type="text" placeholder="Behance" id="Behance" />
+          <input type="text" placeholder="Devfolio" id="Devfolio" />
+          <input type="text" placeholder="Codeforces" id="Codeforces" />
+          <input type="text" placeholder="Codechef" id="Codechef" />
+          <input type="text" placeholder="Leetcode" id="Leetcode" />
+          <input type="text" placeholder="Gitlab" id="Gitlab" />
+          <input type="text" placeholder="Bitbucket" id="Bitbucket" />
+          <input type="text" placeholder="Twitch" id="Twitch" />
+          <input type="text" placeholder="Slack" id="Slack" />
+          <input type="text" placeholder="Medium" id="Medium" />
+        </form>
+      </div>
+    </div>
+  </body>
 </html>
 <script src="https://cdn.jsdelivr.net/npm/appwrite@7.0.0"></script>
 <script type="text/javascript" src="./scripts/show.js"></script>
