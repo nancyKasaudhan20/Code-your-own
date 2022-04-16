@@ -82,7 +82,6 @@ console.log(newurl)
 document.getElementsByClassName('linkref')[0].innerText = newurl[1];
 document.getElementsByClassName('linkref')[0].href = newurl[1];
 document.getElementsByClassName('QRref')[0].href = QRurl;
-document.getElementsByClassName('QRref')[0].setAttribute("download")
 
 
 function copyText() {
