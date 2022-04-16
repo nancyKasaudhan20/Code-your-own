@@ -1,0 +1,187 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#logo{
+     padding-left: 10px;
+}
+.brand-name {font-family: 'Love Ya Like A Sister', cursive;
+    font-size: 1.8rem;
+    position: absolute;
+    left: 59px;
+    top: 0px;
+}
+
+
+
+#navbar{
+    background-color: rgb(191, 205, 205);
+    display: flex;
+    position: relative;
+    top: 0px;
+    height: 41px;
+
+}
+h1{
+font-family: Hepta Slab;
+font-size: 80px;
+font-weight: 800;
+line-height: 100px;
+letter-spacing: 0em;
+text-align: center;
+margin-left: auto;
+margin-right:auto;
+}
+form{
+    width: 70vw;
+    height: 60vh;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    margin-left: auto;
+    margin-right: auto;
+}
+input{
+    height:50px;
+    width:65vw;
+    margin: 10px 0px;
+    outline: none;
+    background-position: 10px 10px;
+  background-repeat: no-repeat;
+  background-size: 30px;
+  text-indent: 45px;
+    
+}
+input:focus{
+    background-color:#7CB7EE;
+}
+#btn{
+width: 100px;
+height:40px;
+border-radius: 5px;
+background-color:#2967A0;
+border:none;
+color: white;
+margin-left: 50vw;
+margin-right: 50vw;
+transform: translateX(-50%);
+cursor: pointer;
+}
+#btn:hover{
+    opacity:0.7;
+}
+#btn:focus{
+    opacity:0.7;
+}
+#btn:unfocus{
+    opacity: 1;
+}
+@media(max-width:800px){
+    input{
+        height:45px;
+        width:65vw;
+        margin: 10px 0px;
+        outline: none;
+        
+    }
+    h1{
+        font-family: Hepta Slab;
+        font-size: 40px;
+        font-weight: 800;
+        line-height: 100px;
+        letter-spacing: 0em;
+        text-align: center;
+        margin-left: auto;
+        margin-right:auto;
+    }
+    form{
+        width: 70vw;
+        height: 55vh;
+        overflow-y: scroll;
+        scroll-behavior: smooth;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+}
+
+#Name{
+  background-image: url('./socials/Svg\ desktop.png');
+}
+
+#Website{
+    background-image: url('./socials/world-wide-web.png')
+}
+#Gmail{
+    background-image: url('./socials/gmail.png')
+}
+#Contact{
+    background-image: url('./socials/phone.png')
+}
+#Twitter{
+    background-image: url('./socials/twitter.png')
+}
+#Github{
+    background-image: url('./socials/github.png')
+}
+#Linkedin{
+    background-image: url('./socials/linkedin.png')
+}
+#Instagram{
+    background-image: url('./socials/instagram.png')
+}
+#Discord{
+    background-image: url('./socials/discord.png')
+}
+#Kaggle{
+    background-image: url('./socials/Kaggle.png')
+}
+#Spotify{
+    background-image: url('./socials/spotify.png')
+}
+#Pinterest{
+    background-image: url('./socials/pinterest.png')
+}
+#Youtube{
+    background-image: url('./socials/youtube.png')
+}
+#Yahoo{
+    background-image: url('./socials/yahoo.png')
+}
+#Snapchat{
+    background-image: url('./socials/snapchat.png')
+}
+#Dribble{
+    background-image: url('./socials/dribble.png')
+}
+#Behance{
+    background-image: url('./socials/behance.png')
+}
+#Devfolio{
+    background-image: url('./socials/Devfolio.png')
+}
+#Codeforces{
+    background-image: url('./socials/Codeforces.png')
+}
+#Codechef{
+    background-image: url('./socials/Codechef.png')
+}
+#Leetcode{
+    background-image: url('./socials/Leetcode.png')
+}
+#Gitlab{
+    background-image: url('./socials/gitlab.png')
+}
+#Bitbucket{
+    background-image: url('./socials/bitbucket.png')
+}
+#Twitch{
+    background-image: url('./socials/twitch.png')
+}
+#Slack{
+    background-image: url('./socials/slack.png')
+}
+#Medium{
+    background-image: url('./socials/medium.png')
+}
