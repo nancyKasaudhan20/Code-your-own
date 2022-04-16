@@ -8,7 +8,7 @@ const form = document.forms[0]
 const sdk = new Appwrite()
 console.log(QRurl)
 sdk
-  .setEndpoint('http://143.244.183.200/v1') // Your Appwrite Endpoint
+  .setEndpoint('https://143.244.183.200/v1') // Your Appwrite Endpoint
   .setProject('codeyourown') // Your project ID
 let anyon = sdk.account.createAnonymousSession()
 
