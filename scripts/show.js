@@ -29,7 +29,7 @@ let promise = sdk.database.createDocument('all-data', identifier, {
   "Contact": userlinks.Contact,
   "Twitter": userlinks.Twitter,
   "Github": userlinks.Github,
-  "Linkedin": userlinks.Linkedin,
+  "LinkedIn": userlinks.LinkedIn,
   "Instagram": userlinks.Instagram,
   "Discord": userlinks.Discord,
   "Kaggle": userlinks.Kaggle,
