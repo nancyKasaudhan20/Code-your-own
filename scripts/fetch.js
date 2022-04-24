@@ -18,11 +18,14 @@ readData.then(function (response) {
     for (let i = 0; i < form.length;i++){
           console.log(response[form[i].id])
           let formID=form[i].id
-          if(response[form[i].id]){
-              document.getElementById(`${formID}`).style.display="block"
-          }
+           document.getElementById(`${formID}`).style.display="none"
+           if(response[form[i].id]){
+             document.getElementById(`${formID}`).value=response[form[i].id]
+             document.getElementById(`${formID}`).style.display="block"
+}
           document.getElementById(`${formID}`).value=response[form[i].id]
     }
 }, function (error) {
     console.log(error); // Failure
 });
+

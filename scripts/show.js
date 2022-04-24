@@ -69,6 +69,11 @@ readData.then(function (response) {
     for (let i = 0; i < form.length;i++){
           console.log(response[form[i].id])
           let formID=form[i].id
+           document.getElementById(`${formID}`).style.display="none"
+           if(response[form[i].id]){
+             document.getElementById(`${formID}`).value=response[form[i].id]
+             document.getElementById(`${formID}`).style.display="block"
+}
           document.getElementById(`${formID}`).value=response[form[i].id]
     }
 }, function (error) {
@@ -82,6 +87,34 @@ console.log(newurl)
 document.getElementsByClassName('linkref')[0].innerText = newurl[1];
 document.getElementsByClassName('linkref')[0].href = newurl[1];
 document.getElementsByClassName('QRref')[0].href = QRurl;
+console.log(`${newurl[1]}`)
+
+//adding url shortener
+const encodedParams = new URLSearchParams();
+encodedParams.append("url", `${newurl[1]}`);
+
+const options = {
+	method: 'POST',
+	headers: {
+		'content-type': 'application/x-www-form-urlencoded',
+		'X-RapidAPI-Host': 'url-shortener-service.p.rapidapi.com',
+		'X-RapidAPI-Key': '84d716def9mshfda12e4c205103ep172fcejsncd20c7a2ef26'
+	},
+	body: encodedParams
+};
+
+fetch('https://url-shortener-service.p.rapidapi.com/shorten', options)
+	.then(response => response.json())
+	.then(response => {console.log(response)
+const removed = JSON.stringify(response["result_url"]).replaceAll('"', '');
+console.log(removed); // 👉️ hello world
+
+  document.getElementsByClassName('linkref')[0].innerText = removed;
+document.getElementsByClassName('linkref')[0].href = removed;
+  }
+  )
+	.catch(err => console.error(err));
+
 
 
 function copyText() {
