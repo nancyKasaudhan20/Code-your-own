@@ -8,7 +8,7 @@
       content="width=device-width, initial-scale=1.0"
     />
     <title>CODE-YOUR-OWN</title>
-    <link rel="stylesheet" href="work.css" />
+    <link rel="stylesheet" href="./styles/work.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -31,14 +31,13 @@
   <body>
     <nav>
       <div>
-      <div id="logo">
-        <img src="Logo.png" alt="[:;]" height="40px" width="40px" />
+        <div id="logo">
+          <img src="./images/Logo.png" alt="[:;]" height="40px" width="40px" />
+        </div>
+        <div class="brand-name">Code Your Own</div>
       </div>
-      <div class="brand-name">Code Your Own</div>
-      
-   </div>  
     </nav>
-    
+
     <h1>Add your links</h1>
     <form id="form">
       <input type="text" placeholder="Name" id="Name" />
@@ -68,7 +67,7 @@
       <input type="url" placeholder="Slack" id="Slack" />
       <input type="url" placeholder="Medium" id="Medium" />
     </form>
-    <button onclick="btnClick()"  id="btn">Generate QR</button>
+    <button  id="btn">Generate QR</button>
   </body>
 </html>
-<script type="text/javascript" src="./scripts/work.js"></script>
+<script type="module" src="./scripts/work.js"></script>
