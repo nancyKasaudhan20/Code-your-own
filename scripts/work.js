@@ -91,5 +91,5 @@ const docRef = await addDoc(collection(db, "links"), {
 console.log(docRef.id)
 const uuid = docRef.id;
 localStorage.setItem('identifier',uuid)
-window.location.replace('../show.html')
+window.location.replace('./show.html')
 }
