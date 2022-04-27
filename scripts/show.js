@@ -50,7 +50,7 @@ if (docSnap.exists()) {
 
 
 fetch(
-      `https://api.qrserver.com/v1/create-qr-code/?data=http://ishar19.github.io/code-your-own/fetch.html?id=${id}`,
+      `https://api.qrserver.com/v1/create-qr-code/?data=https://ishar19.github.io/Code-your-own/fetch.html?id=${id}`,
     )
       .then(function (response) {
         const QRurl = response.url
