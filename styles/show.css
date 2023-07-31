@@ -74,18 +74,21 @@
     margin-left: auto;
     margin-right: auto; 
 }
-.download .btn{
+/* .download .btn{
     background-color:#2967A0;
     height:3rem;
     border-radius:12px;
     color: white;
     width:120%;
-}
+} */
 .btn{
     background-color:#2967A0 ;
     height:3rem;
     border-radius:12px;
     color: white;
+    margin-left: auto;
+    margin-right: auto;
+    transform:translateX(50%)
 }
 .btn:hover{
     background-color:#0A3E6D;
@@ -146,77 +149,77 @@ input{
 
 
 #Website{
-    background-image: url('./socials/world-wide-web.png')
+    background-image: url('../socials/world-wide-web.png')
 }
 #Gmail{
-    background-image: url('./socials/gmail.png')
+    background-image: url('../socials/gmail.png')
 }
 #Contact{
-    background-image: url('./socials/phone.png')
+    background-image: url('../socials/phone.png')
 }
 #Twitter{
-    background-image: url('./socials/twitter.png')
+    background-image: url('../socials/twitter.png')
 }
 #Github{
-    background-image: url('./socials/github.png')
+    background-image: url('../socials/github.png')
 }
 #Linkedin{
-    background-image: url('./socials/linkedin.png')
+    background-image: url('../socials/linkedin.png')
 }
 #Instagram{
-    background-image: url('./socials/instagram.png')
+    background-image: url('../socials/instagram.png')
 }
 #Discord{
-    background-image: url('./socials/discord.png')
+    background-image: url('../socials/discord.png')
 }
 #Kaggle{
-    background-image: url('./socials/Kaggle.png')
+    background-image: url('../socials/Kaggle.png')
 }
 #Spotify{
-    background-image: url('./socials/spotify.png')
+    background-image: url('../socials/spotify.png')
 }
 #Pinterest{
-    background-image: url('./socials/pinterest.png')
+    background-image: url('../socials/pinterest.png')
 }
 #Youtube{
-    background-image: url('./socials/youtube.png')
+    background-image: url('../socials/youtube.png')
 }
 #Yahoo{
-    background-image: url('./socials/yahoo.png')
+    background-image: url('../socials/yahoo.png')
 }
 #Snapchat{
-    background-image: url('./socials/snapchat.png')
+    background-image: url('../socials/snapchat.png')
 }
 #Dribble{
-    background-image: url('./socials/dribble.png')
+    background-image: url('../socials/dribble.png')
 }
 #Behance{
-    background-image: url('./socials/behance.png')
+    background-image: url('../socials/behance.png')
 }
 #Devfolio{
-    background-image: url('./socials/Devfolio.png')
+    background-image: url('../socials/Devfolio.png')
 }
 #Codeforces{
-    background-image: url('./socials/Codeforces.png')
+    background-image: url('../socials/Codeforces.png')
 }
 #Codechef{
-    background-image: url('./socials/Codechef.png')
+    background-image: url('../socials/Codechef.png')
 }
 #Leetcode{
-    background-image: url('./socials/Leetcode.png')
+    background-image: url('../socials/Leetcode.png')
 }
 #Gitlab{
-    background-image: url('./socials/gitlab.png')
+    background-image: url('../socials/gitlab.png')
 }
 #Bitbucket{
-    background-image: url('./socials/bitbucket.png')
+    background-image: url('../socials/bitbucket.png')
 }
 #Twitch{
-    background-image: url('./socials/twitch.png')
+    background-image: url('../socials/twitch.png')
 }
 #Slack{
-    background-image: url('./socials/slack.png')
+    background-image: url('../socials/slack.png')
 }
 #Medium{
-    background-image: url('./socials/medium.png')
+    background-image: url('../socials/medium.png')
 }
